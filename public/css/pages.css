@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+nav .navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+nav.navbar-light .navbar-nav .nav-link.active{
+    font-weight: 700;
+    color: #8C24A3 !important;
+}
+.videos iframe{
+    max-height: 330px;
+}
+iframe{
+    max-width: 100%;
+}
+
+.rd-none{
+    display: none;
+}
+.producto-variable, .producto-variable td, .producto-variable th{
+    border: 1px solid #CED4DA;
+    border-collapse: collapse;
+}
+.table > :not(:last-child) > :last-child > * {
+    border-bottom-color: #CED4DA;
+}
+/**
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+/**
+fondo de colores
+*/
+
+.bg-purple{
+    background-color: #8C24A3;
+}
+.bg-light {
+    background-color: #F2F2F2 !important;
+}
+.bg-black{
+    background-color: #242424;
+}
+.bg-green{
+    background-color: #189FAC;
+}
+
+.btn-danger{
+    background-color: #E20A1A !important;
+}
+
+.btn-success{
+    color: #fff;
+    background-color: #146c43 !important;
+    border-color: #13653f !important;
+}
+.btn-warning{
+    color: #fff;
+    background-color: #ffcd39 !important;
+    border-color: #ffc720;
+}
+.btn-outline-danger{
+    color: #0155D3;
+    border-color:#0155D3 !important;
+}
+.btn-outline-danger:hover{
+    background-color: white !important;
+}
+
+/*
+    Tipo de letra
+*/
+
+
+/* width */
+
+/**
+Colores
+*/
+
+.text-primary{
+    color: #103B57 !important;
+}
+
+.text-blue{
+    color: #1b4a69f2 !important;
+}
+.text-purple{
+    color: #8C24A3 !important;
+}
+
+.text-light2{
+    color: #D4E0EA !important;
+}
+.text-light{
+    color: #F9F9F9 !important;
+}
+
+.input-search::placeholder, .input-search{
+    color:white;
+}
+
+/**
+
+Tamaños de letra
+*/
+.font-size-41{
+    font-size: 41px;
+}
+.font-size-34{
+    font-size: 34px;
+}
+.font-size-32{
+    font-size: 32px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+.font-size-26{
+    font-size: 26px;
+}
+.font-size-25{
+    font-size: 25px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+.font-size-23{
+    font-size: 23px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.font-size-21{
+    font-size: 21px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-19{
+    font-size: 19px;
+}
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-17{
+    font-size: 17px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+
+.font-size-13{
+    font-size: 13px !important;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-11{
+    font-size: 11px;
+}
+.redes-sociales a{
+    border-radius: 100%;
+    padding: 5px 9px;
+}
+.card.post{
+    height: 480px;
+}
+.card.post:hover{
+    background-color: #f8f9fa ;
+    border: 1px solid #CECECE;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus,.nav-tabs{
+    border: none;
+}
+.header i{
+    color: #E20A1A;
+}
+.header-page{
+    height: 193px; 
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.header-page h1{
+    bottom: 40px;
+    left: 0;
+    width: 280px;
+    text-align: right;
+    padding: 10px 20px 10px 0;
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+.nav-tabs .active{
+    background-color: #189FAC !important;
+    color: white !important;
+}
+#pre-footer i{
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 100%;
+}
+.header *, .header a:hover,
+.header a:focus
+.header a:active{
+    color: #333333;
+    text-decoration: none;
+}
+.breadcrumb{
+    margin-bottom: 0;
+}
+
+.form-control:focus {
+    border: 1px solid #ced4da;
+    outline: none;
+    box-shadow: none;
+}
+#heroProducto p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.underline{
+    text-decoration: none !important;
+}
+.underline:hover{
+    text-decoration: underline !important;
+}
+
+.contenedor-breadcrumb{
+    background-color: #f6fbfe;
+}
+.nav-tabs .active{
+    background-color: transparent !important;
+    color: #8C24A3 !important;
+    border-bottom: 1px solid #8C24A3 !important;
+}
+.nav-tabs .nav-link{
+    border: none;
+}
+.nav-tabs .nav-link.text-dark{
+    border-bottom:1px solid #CECECE;
+}
+
+#pre-footer i{
+    width: 45px;
+    height: 40px;
+}
+.content-post h1,
+.content-post h2,
+.content-post h3{
+    font-size: 20px;
+    color: #242424e6;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8D8D8D;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+.content-post p{
+    color: #707070;
+    font-size: 18px;
+    max-width: 700px;
+}
+.mb-100{
+    margin-bottom: 50px;
+}
+.btn-contact:hover{
+    background-color: #8C24A3 !important;
+    color: white !important;
+}
+.row.servicio:hover > div{
+    background-color: #8C24A314 !important;
+}
+#sliderHero .carousel-indicators{
+    left: 0;
+    right: 0;
+    margin: auto !important;
+}
+@media (min-width: 50px){
+
+    .w-sm-100{
+        width: 100%;
+    }
+    .categoria-producto{
+        bottom: 0; 
+    }
+    .contenedor-color{
+        width: 100%;
+        height: 94px;
+    }
+
+    #hilos-libertad h5{
+        font-size: 1.25rem;
+    }
+    #sliderHeroEmpresa .carousel-indicators {
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+
+@media (min-width: 720px){
+    .categoria-producto{
+        bottom: 120px;
+    }
+    .w-md-50{
+        width: 50%;
+    }
+    .rcard{
+        max-width:200px; 
+        min-width:200px
+    }
+
+    .contenedor-color{
+        width: 30%;
+    }
+
+    .contenedor{
+        max-width: 200px;
+        min-width: 200px;
+        min-height: 100px;
+        max-height: 100px;
+    }
+
+    #hilos-libertad h5{
+        font-size: 30px;
+    }
+
+    #sliderHeroEmpresa .carousel-indicators{
+        bottom: 10px;
+    }
+    .w-md-48{
+        width: 48% !important;
+    }
+}
+
+@media (min-width: 992px){
+    .content-carousel-caption{
+        margin-top: 200px;
+    }
+    .cliente{
+        width: 25%;
+    }
+    .mb-100{
+        margin-bottom: 100px;
+    }
+    #sliderHeroEmpresa, #sliderHeroEmpresa .carousel-item{
+        height: 50vh;
+    }
+    .sectores{
+        max-width: 23%;
+        min-width: 23%;
+    }
+
+    .img-product{
+        min-height: 300px; 
+        max-height: 300px; 
+        width:100%; 
+        object-fit: contain;
+    }
+    .carrusel{
+        max-width: 80%;
+        margin: auto;
+    }
+    .form-pre-header:hover input{
+        display: block;
+        margin-left: 10px;
+        z-index: 100;
+        right: 40px;
+        min-width: 200px;
+        position: absolute;
+        background-color: white !important;
+        padding: 2px 15px !important;
+    }
+    .form-pre-header:hover button{
+        border-right: 1px solid #212529 !important;
+    }
+    #pre-header .email{
+        margin-left: 20px;
+    }
+    #pre-header .active{
+        font-weight: bold;
+    }
+    .productos-relacionados{
+        max-width: 80%;
+        margin: auto;
+    }
+    .productos-relacionados .card.producto
+    {
+        max-width: 300px;
+    }
+    #sliderHero, #sliderHero .carousel-item{
+        min-height: 517px;
+        max-height: 517px;
+    }
+    .carousel-caption{
+        max-width: 45%;
+        left: 4%;
+        text-align: left !important;
+        top: 50%;
+    }
+    .form-pre-header input{
+        display: none;
+    }
+    .form-pre-header button{
+        border: none;
+    }
+    nav.navbar-light .navbar-nav .nav-link{
+        font-size: 90%;
+    }
+
+    .categoria-producto .container{
+        max-width: 980px;
+        
+    }
+
+    .contenedor-color{
+        width: 18%;
+    }
+
+    nav.navbar-light .navbar-nav .nav-link.active::after, .title {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        height: 4px;
+        background-color:#8C24A3;
+        margin: auto;
+    }
+}
+@media (max-width: 992px){
+    #sliderHeroEmpresa, #sliderHeroEmpresa .carousel-item, #sliderHero, #sliderHero .carousel-item{
+        height: 30vh;
+    }
+    .text-customer{
+        color: black !important;
+    }
+    .sectores{
+        max-width: 32%;
+        min-width: 32%;
+    }
+}
+@media (min-width: 1200px){
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1270px;
+    }
+}
+
+@media (max-width: 768px){
+    .carousel-caption{
+        max-width: 100%;
+        left: 0;
+    }
+    .font-size-41{
+        font-size: 18px;
+    }
+    .cliente{
+        width: 33%;
+    }
+    .sectores{
+        max-width: 48%;
+        min-width: 48%;
+    }
+    .ul-empresa ul, .ul-ordenador-produccion ul{
+        padding: 0;
+    }
+    nav ul li form button {
+        background-color: #E20A1A !important;
+        color: white !important;
+        padding: 0.5rem !important;
+    }
+    .font-size-30{
+        font-size: 19px;
+    }
+    .font-size-25{
+        font-size: 19px;
+    }
+    #heroProducto h2{
+        font-size: 19px;
+    }
+
+    .logo-header{
+        max-width: 150px;
+    }
+
+    .ancho-boton{
+        width: 100%;
+    }
+
+    #heroProducto p{
+        font-size: 15px;
+    }
+    .rcard{
+        max-width:50%; 
+        min-width:50%;
+    }
+}
+
+@media (max-width: 500px){
+    .cliente{
+        width: 47%;
+    }
+    .sectores{
+        max-width: 98%;
+        min-width: 98%;
+    }
+    .rcard{
+        max-width:100%; 
+        min-width:100%;
+    }
+}
